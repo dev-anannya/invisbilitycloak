@@ -1,12 +1,12 @@
 # invisbilitycloak
 
-## A Harry Potter Inspired Project
+# A Harry Potter Inspired Project
 
-# Invisible Cloak Effect
+## Invisible Cloak Effect
 
 This project demonstrates the "invisible cloak" effect using OpenCV, inspired by the magical invisibility cloaks from fictional worlds. The program replaces a user-defined color in the video feed with a pre-captured background, creating the illusion of invisibility.
 
-# Features
+## Features
 
 1. Captures the background from the webcam.
 
@@ -16,7 +16,7 @@ This project demonstrates the "invisible cloak" effect using OpenCV, inspired by
 
 4. Real-time processing using OpenCV.
 
-# Requirements
+## Requirements
 
 Python 3.6+
 
@@ -24,7 +24,7 @@ OpenCV 4.x
 
 NumPy
 
-# Installation
+## Installation
 
 Clone the repository or download the script.
 
@@ -34,7 +34,7 @@ Install the required Python libraries:
 pip install opencv-python numpy
 ```
 
-# How to Run
+## How to Run
 
 Connect a webcam to your computer.
 
@@ -50,7 +50,7 @@ Use a blue cloth to see the invisibility effect.
 
 Press q to exit the program.
 
-# Configuration
+## Configuration
 
 1. Change Cloak Color
 
@@ -66,7 +66,7 @@ Replace these values with the HSV range of your desired color.
 
 You can adjust the number of frames used for background capture by modifying the num_frames parameter in the create_background function.
 
-# Code Overview
+## Code Overview
 
 create_background: Captures multiple frames to calculate the background using the median.
 
@@ -76,17 +76,17 @@ apply_cloak_effect: Combines the current frame and background to create the invi
 
 main: Handles the main program flow, including capturing video frames and applying the cloak effect.
 
-# Controls
+## Controls
 
 q: Quit the program.
 
-# Known Issues
+## Known Issues
 
 The effect may not work well under poor lighting conditions.
 
 Colors similar to the cloak color may also be replaced.
 
-# Future Improvements
+## Future Improvements
 
 1. Add support for dynamic color selection via a GUI.
 
