@@ -30,7 +30,9 @@ Clone the repository or download the script.
 
 Install the required Python libraries:
 
-'''pip install opencv-python numpy'''
+``` bash
+pip install opencv-python numpy
+```
 
 # How to Run
 
@@ -38,7 +40,9 @@ Connect a webcam to your computer.
 
 Run the script:
 
-'''python invisbilitycloak/main.py'''
+``` bash
+python invisbilitycloak/main.py
+```
 
 Let the camera capture just the background first.
 
@@ -51,10 +55,10 @@ Press q to exit the program.
 1. Change Cloak Color
 
 To change the color of the cloak, modify the lower_blue and upper_blue variables in the script:
-''' bash
+``` bash
 lower_blue = np.array([90, 50, 50])
 upper_blue = np.array([130, 255, 255])
-'''
+```
 
 Replace these values with the HSV range of your desired color.
 
