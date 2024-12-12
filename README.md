@@ -51,7 +51,7 @@ Press q to exit the program.
 1. Change Cloak Color
 
 To change the color of the cloak, modify the lower_blue and upper_blue variables in the script:
-'''
+''' bash
 lower_blue = np.array([90, 50, 50])
 upper_blue = np.array([130, 255, 255])
 '''
